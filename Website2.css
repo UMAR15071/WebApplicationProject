@@ -1,0 +1,77 @@
+img{
+    position: relative;
+    top:30px;
+    left:30px;
+    max-width: 10%;
+    max-height: 10%;
+}
+*{
+    margin:0;
+}
+h1{
+    position:absolute;
+    top:50px;
+    left:50%;
+    transform:translateX(-50%); /* A property to set the position of any thing on browser relative to its original position reference: https://www.youtube.com/watch?v=TjsXj9j_JHk&ab_channel=ScoreShala*/ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vh;
+    color:white;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*these values represent the x and y axis*/
+    background-color: rgba(61, 60, 60,0.5);
+    text-align: center;
+    width:100vw;
+    color:white;
+  }
+.links{
+    margin-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    
+  }
+a{
+    color:#ffff;
+    text-decoration: none;
+    border-radius:4px;
+    padding-right:20px;
+    padding-left:20px;
+}
+a:hover{
+    color:black;
+    text-decoration:underline;
+    background-color: gold;
+    transition:1s;
+}
+
+.container2{
+    position: absolute;
+    border-radius: 4px;
+    border:solid;
+    border-color:grey;
+    background-color: rgba(98, 91, 91,0.5);
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+
+.links2{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:80px;
+    margin-bottom:80px;
+    font-size: 25px;
+}
+html{
+    background-color:black;
+}
+  
+  
